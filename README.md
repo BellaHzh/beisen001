@@ -6,4 +6,5 @@
 **0918**
 - intro to Python
 - Hello.py
+- Git and github 001
 - [Homework](https://emilydidthis.github.io/CSCI-UA.002-Fall23/assignments/01.html)
