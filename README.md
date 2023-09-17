@@ -1,7 +1,7 @@
 # Bella's 1 on 1 CS001 in Python
 
 **这是贝贝与森老师的CS001**
-**Office hours through WeChat, anytime [^1]** 
+**Office hours through WeChat, anytime[^1]** 
 
 ### **0918**
 - intro to Python
@@ -28,4 +28,4 @@
   - A cheat to github: if you want the easy ways, [download VSCode](https://code.visualstudio.com/) and Familiarize with the User Interface. VSCode allows you to commit and sync in one button click.
 - [Homework 1](https://emilydidthis.github.io/CSCI-UA.002-Fall23/assignments/01.html) (due 9/22)
 
-[^1] of course, you are my girl.
+[^1]: of course, you are my girl.
