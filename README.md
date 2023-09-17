@@ -1,6 +1,8 @@
 # beisen001
+
 **这是贝贝与森老师的CS001**
-- Language: Python  
+- Language: Python
+
 **0918**
 - intro to Python
 - Hello.py
