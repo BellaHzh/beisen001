@@ -3,4 +3,4 @@
 **这是贝贝与森老师的CS001**  
 **Office hours through WeChat, anytime[^1]** 
 
-[^1]: of course, you are my girl!
+[^1]: of course, you are my girl.
