@@ -4,10 +4,10 @@
 **Office hours through WeChat, anytime[^1]** 
 
 ## Grades
-| Event      | Date  | Grade |
-| :--------- | :---: | ----: |
-| Homework 1 | 9/22  |       |
-| Homework 2 | 9/29  |       |
-| Homework 3 | 10/6  |       |
+| Event      | Date  |                    Grade |
+| :--------- | :---: | -----------------------: |
+| Homework 1 | 9/22  | :white_check_mark: 10/10 |
+| Homework 2 | 9/29  |                          |
+| Homework 3 | 10/6  |                          |
 
 [^1]: of course, you are my girl.
