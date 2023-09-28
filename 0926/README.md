@@ -10,4 +10,4 @@
 [Assignment 2](https://emilydidthis.github.io/CSCI-UA.002-Fall23/assignments/02.html) (print, string formatting, arithmetic operations)
 [Assignment 3](https://emilydidthis.github.io/CSCI-UA.002-Fall23/assignments/03.html) (Optional preview, due next week, questions on loops)
 
-Remember to submit your assignment on this project, by `git push`. Here is a magical [PORTAL](https://github.com/BellaHzh/beisen001/tree/main/0918/README.md)
+Remember to submit your assignment on this project, by `git push`. Here is a magical [PORTAL](https://github.com/BellaHzh/beisen001/tree/main/0918/README.md#git-and-github)
