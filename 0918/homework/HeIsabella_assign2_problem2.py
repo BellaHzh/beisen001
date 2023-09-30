@@ -12,6 +12,6 @@ interest2=ending1*(interest/100)/12
 ending2=ending1+interest2
 interest3=ending2*(interest/100)/12
 ending3=ending2+interest2
-print(format("1","<10s"),format(round(invest,2),"<10f"),format(round(interest1,2),"<30f"),format(round(ending1,2),"<100f"))
+print(format("1","<10s"),format(round(invest,2),"<10f"),format(round(interest1,2),"<30f"),format(round(ending1,2),"<20f"))
 print(format("2","<10s"),format(round(ending1,2),"<10f"),format(round(interest2,2),"<30f"),format(round(ending2,2),"<20f"))
 print(format("3","<10s"),format(round(ending2,2),"<10f"),format(round(interest3,2),"<30f"),format(round(ending3,2),"<20f")) 
