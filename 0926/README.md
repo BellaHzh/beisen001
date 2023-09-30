@@ -1,4 +1,11 @@
 ## 0926
+## Topics
+
+### Loops
+For loop  
+While loop  
+Nested for loop  
+
 ### Main lecture
 [Boolean Data, Conditionals](https://emilydidthis.github.io/CSCI-UA.002-Fall23/assets/slides/module-03.pdf)  
 [Loops](https://emilydidthis.github.io/CSCI-UA.002-Fall23/assets/slides/module-04.pdf)
