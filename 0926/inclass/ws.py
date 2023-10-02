@@ -10,37 +10,32 @@
 # 10
 # 12
 # 14
-start=int(input("Starting number: "))
-end=int(input("Ending number: "))
-type=input("Even or Odd? (E)for Even, (O) for Odd: ")
+start = int(input("Starting number: "))
+end = int(input("Ending number: "))
+type = input("Even or Odd? (E)for Even, (O) for Odd: ")
 print("")
-while True:  
-    if start%2==0:
-        starttype="E"
+while True:
+    if start % 2 == 0:
+        starttype = "E"
     else:
-        starttype="O"
-    if type=="E":
-        if starttype=="E":
-            start=start
+        starttype = "O"
+    if type == "E":
+        if starttype == "E":
+            start = start
             break
         else:
-            start+=1
+            start += 1
             break
-    elif type=="O":
-        if starttype=="E":
-            start+=1
+    elif type == "O":
+        if starttype == "E":
+            start += 1
             break
     else:
-        type=input("Even or Odd? (E)for Even, (O) for Odd: ")
+        type = input("Even or Odd? (E)for Even, (O) for Odd: ")
 
 print("output")
-while start<end:
-    if start>end:
+while start < end:
+    if start > end:
         break
     print(start)
-    start+=2
-    
-        
-
-
-
+    start += 2
