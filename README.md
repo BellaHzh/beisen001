@@ -1,4 +1,4 @@
-# Bella's 1 on 1 CS001 in Python
+# :computer: Bella's 1 on 1 CS001 in Python
 
 **这是贝贝与森老师的CS001**  
 **[Self paced learning](https://cs.nyu.edu/elearning/CSCI_UA_0002/index.php)**  
