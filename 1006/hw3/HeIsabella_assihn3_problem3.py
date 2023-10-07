@@ -49,7 +49,10 @@ else:
     elif daylast == 2:
         daytype = "nd"
     elif daylast == 3:
-        daytype = "st"
+        daytype = "rd"
     else:
         daytype = "th"
     print(monthtype, " ", day, daytype, " ", year, " is a valid date.", sep='')
+
+# point deduction: minor error, not counting the cases when year % 4 == 0, year % 100 == 0, and year % 400 != 0 which indicates not a leap year. EXAMPLE: 1900, 2100, 2200
+# Grade right now: 2.5/3, if fixed before deadline I will add back the points
