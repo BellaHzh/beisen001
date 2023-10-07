@@ -13,3 +13,4 @@ point deduction: minor error, not counting the cases when year % 4 == 0, year % 
 ### New Homeworks
 [4](https://emilydidthis.github.io/CSCI-UA.002-Fall23/assignments/04.html) (due 10/13)  
 [5](https://emilydidthis.github.io/CSCI-UA.002-Fall23/assignments/05.html) (due 10/20)
+[6](https://emilydidthis.github.io/CSCI-UA.002-Fall23/assignments/06.html) (due 10/27)
