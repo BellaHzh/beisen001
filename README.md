@@ -9,6 +9,6 @@
 | :--------- | :----------: | -----------------------: |
 | Homework 1 |     9/22     | :white_check_mark: 10/10 |
 | Homework 2 | 9/29 -> 9/30 |  :white_check_mark: 8/10 |
-| Homework 3 |     10/6     |       :white_check_mark: |
+| Homework 3 |     10/6     |  :white_check_mark: 9/10 |
 
 [^1]: of course, you are my girl.
