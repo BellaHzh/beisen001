@@ -20,13 +20,13 @@ Plus fill in everything blank below
   - 🚫 No Chinese comma and quotes!!! (`“，”`)
 - **Arithmitic Operations**
   - **Exercise**: What do they mean? Give an example for each
-  - `+`
-  - `-`
-  - `*`
-  - `/`
-  - `//`
-  - `**`
-  - `%`
+  - `+`:plus
+  - `-`:minus
+  - `*`:time
+  - `/`:divide
+  - `//`:floor division
+  - `**`:exponents
+  - `%`:gets the remainder
 - **Input**
   - syntax: `var=input("prompt goes here")`
   - How to convert?
@@ -44,7 +44,53 @@ Plus fill in everything blank below
   - see src `hello.py` for syntax and use cases
 
 ## Bella's Notes
-- **Assignment**: Copy and Paste your notes here and delete this line
+variable=value
+
+integer
+
+floats: 0.3
+
+string: name=’bella’ (string要加引号)
+
+type(variable)
+
+astring_as_int=int(astring):转换
+
+aint_as_str=str(int)
+
+print(’hello world’)>>>hello world
+
+age=22
+
+print(f’age is: {age}’)>>.age is 22
+
+print(f’{age} is: {age}’)>>22 is 22
+
+print(’age is’, age)>>age is 22
+
+print(’age is’+str(age))>>age is22
+
+“，”可以自动create空格
+
+//: 26//5>>5 floor division
+
+%:26//5>>1 remainder
+
+**: 指数 2**5>>32
+
+age=input(”What’s your age”)>>What’s your age
+
+age=input(’What\’s your age’)>>What’s your age
+
+variable 第一位不能是数字
+
+variable is case sensitive: Person1不等于person1
+
+‘’‘comments’‘’
+
+f1=234.567899
+
+formatted_f1=format(f1,’.2f’)>>>234.56 变成了str
 
 *Following notes from [Prof Joshua Clayton](https://cs.nyu.edu/courses/spring25/CSCI-UA.0002-006/notes/)*
 
