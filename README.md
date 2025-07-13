@@ -10,7 +10,7 @@
 | Homework 1                                                                                                           |     9/22     | :white_check_mark: 10/10 |
 | Homework 2                                                                                                           | 9/29 -> 9/30 | :white_check_mark: 8/10  |
 | Homework 3                                                                                                           |     10/6     |    :white_check_mark:    |
-| [Variables Printing](https://cs.nyu.edu/courses/spring25/CSCI-UA.0002-006/assignments/variables-printing/)           |     7/19     |  :black_square_button:   |
-| [Input Processing Output](https://cs.nyu.edu/courses/spring25/CSCI-UA.0002-006/assignments/input-processing-output/) |     7/19     |  :black_square_button:   |
+| [Variables Printing](https://cs.nyu.edu/courses/spring25/CSCI-UA.0002-006/assignments/variables-printing/)           |     7/19     | :white_check_mark: 10/10 |
+| [Input Processing Output](https://cs.nyu.edu/courses/spring25/CSCI-UA.0002-006/assignments/input-processing-output/) |     7/19     | :white_check_mark: 10/10 |
 
 [^1]: of course, you are my girl.

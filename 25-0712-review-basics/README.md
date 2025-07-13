@@ -91,6 +91,7 @@ variable is case sensitive: Person1不等于person1
 f1=234.567899
 
 formatted_f1=format(f1,’.2f’)>>>234.56 变成了str
+- **Assignment**: Copy and Paste your notes here and delete this line :o
 
 *Following notes from [Prof Joshua Clayton](https://cs.nyu.edu/courses/spring25/CSCI-UA.0002-006/notes/)*
 
