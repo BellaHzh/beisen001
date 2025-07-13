@@ -44,7 +44,7 @@ Plus fill in everything blank below
   - see src `hello.py` for syntax and use cases
 
 ## Bella's Notes
-- **Assignment**: Copy and Paste your notes here and delete this line
+- **Assignment**: Copy and Paste your notes here and delete this line :o
 
 *Following notes from [Prof Joshua Clayton](https://cs.nyu.edu/courses/spring25/CSCI-UA.0002-006/notes/)*
 

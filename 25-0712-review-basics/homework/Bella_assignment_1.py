@@ -7,6 +7,7 @@ side_2 = int(input("Enter the length of side 2: "))
 print()
 hypotenuse = (side_1**2+side_2**2)**0.5
 print("The hypotenuse of the triangle is", format(hypotenuse, ".3f")+".")
+print()
 
 # Part B
 print("This program will project how much you can earn by investing money in a high-yield savings account over a period of four months.")
@@ -41,6 +42,7 @@ print(f"{'3':>5}{amount_two_month_new:>20}{interest_three_month_new:>15}{amount_
 print(f"{'4':>5}{amount_three_month_new:>20}{interest_four_month_new:>15}{amount_four_month_new:>20}")
 
 # Part C
+print()
 Fahrenheit = int(input("Enter a temperature in degrees Fahrenheit: "))
 print()
 degree_sign = u'\N{DEGREE SIGN}'
