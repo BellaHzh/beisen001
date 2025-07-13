@@ -1,4 +1,4 @@
-'''
+
 # PartA
 print("This program calculates the hypotenuse of a right-angled triangle.")
 print()
@@ -39,7 +39,7 @@ print(f"{'1':>5}{initial_value_one:>20}{interest_one_month_new:>15}{amount_one_m
 print(f"{'2':>5}{amount_one_month_new:>20}{interest_two_month_new:>15}{amount_two_month_new:>20}")
 print(f"{'3':>5}{amount_two_month_new:>20}{interest_three_month_new:>15}{amount_three_month_new:>20}")
 print(f"{'4':>5}{amount_three_month_new:>20}{interest_four_month_new:>15}{amount_four_month_new:>20}")
-'''
+
 # Part C
 Fahrenheit = int(input("Enter a temperature in degrees Fahrenheit: "))
 print()
@@ -48,9 +48,9 @@ print(str(Fahrenheit)+degree_sign, "F ...")
 print()
 Fahrenheit_new = float(Fahrenheit)
 Celsius = format((Fahrenheit_new-32)*5/9, ".1f")
-print(f"{'... in Celsius':<15}{Celsius:>20}{degree_sign:>1}", "C")
 Celsius_new = float(Celsius)
 Kelvin = format(Celsius_new+273.15, ".1f")
 Rankine = float(format(Fahrenheit_new+459.67, ".1f"))
+print(f"{'... in Celsius':<15}{Celsius:>20}{degree_sign:>1}", "C")
 print(f"{'... in Kelvin':<15}{Kelvin:>20}{degree_sign:>1}", "K")
 print(f"{'... in Rankine':<15}{Rankine:>20}{degree_sign:>1}", "R")
