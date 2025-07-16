@@ -1,5 +1,6 @@
 # Write your part C here
 # Part C
+import random
 print("I'm thinking of a number between 1 and 10. You have three tries to guess it.")
 print()
 random_number = random.randint(1, 10)
