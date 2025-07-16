@@ -8,14 +8,14 @@ Plus fill in the blanks below
  - True
  - False
  - Give examples for each below (resulting in both True and False)
- - `==`
- - differenciate `=` and `==`
- - `!=`
- - `<`
- - `>`
- - `>=`
- - `<=`
- - `not`
+ - `==`: True: 4==4; False: 4==5
+ - differenciate `=` and `==`: "==" is used in comparion, whereas "=" is used in algebra
+ - `!=`: True:4!=5; False: 4!=4
+ - `<`: True: 2<3; False: 3<2
+ - `>`: False: 2<3; True: 3<2
+ - `>=`: True: 4>=3; False: 3>=4
+ - `<=`: False: 4>=3; True: 3>=4
+ - `not`:opposite direction to the statement behind "not"
 ```py
 >>> a = "True"
 >>> a
