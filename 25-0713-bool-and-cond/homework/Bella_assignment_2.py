@@ -1,4 +1,4 @@
-'''
+
 # Part A
 print("NYC Screen Printing")
 print()
@@ -30,7 +30,7 @@ elif color == 3:
         shirts_price = (number_of_shirts*9)*1.08875
 shirts_price_new = format(shirts_price, ".2f")
 print(f"{number_of_shirts} shirts printed with 3 colors: ${shirts_price_new}")
-'''
+
 # Part B
 print("In the quiet hours just after dawn, you wander the city streets. Passing by a favorite café, you stroll at an unhurried pace without any particular destination. As you continue along a familiar route you notice, for the first time, an open staircase along the side of a building that leads upward and inward.")
 print()
