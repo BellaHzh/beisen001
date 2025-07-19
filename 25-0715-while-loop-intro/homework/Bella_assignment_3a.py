@@ -1,3 +1,4 @@
+# :)
 print("Triangle Validity")
 print()
 choice = "yes"
