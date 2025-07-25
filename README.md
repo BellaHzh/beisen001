@@ -21,6 +21,7 @@
 | [Control Sturctures](https://cs.nyu.edu/courses/spring25/CSCI-UA.0002-006/assignments/control-structures/)                 |     7/15     | :white_check_mark: 10/10 |
 | [Condition Controlled Loops](https://cs.nyu.edu/courses/spring25/CSCI-UA.0002-006/assignments/condition-controlled-loops/) |     7/19     | :white_check_mark: 10/10 |
 | [Count Controlled Loops](https://cs.nyu.edu/courses/spring25/CSCI-UA.0002-006/assignments/count-controlled-loops/)         |     7/23     | :white_check_mark: 8/10  |
+| [Functions](https://cs.nyu.edu/courses/spring25/CSCI-UA.0002-006/assignments/functions-module/)                            |     7/26     |  :black_square_button:   |
 
 [^1]: Following notes from [Prof. Clayton](https://cs.nyu.edu/~jclayton/)
 [^2]: of course, you are my girl.
