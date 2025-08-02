@@ -17,7 +17,7 @@ def valid(a):
                 return True
 
 
-if valid(a) == True:
+if valid(a):
     print("This is a valid variable name.")
 else:
     print("This is not a valid varibale name.")
