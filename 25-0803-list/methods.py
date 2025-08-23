@@ -1,9 +1,9 @@
 shapes = ['square', 'sqaure', 'circle']
 
 # Append - add to the end of list
-# shapes += ['triangle']
+shapes += ['triangle']
 # shapes.append('triangle')
-# print(shapes)
+print(shapes)
 
 # Insert - add to specified index of list
 # shapes.insert(1, 'triangle')
