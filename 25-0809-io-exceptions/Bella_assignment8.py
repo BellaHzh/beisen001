@@ -73,7 +73,7 @@ while True:
         print(f"Total invalid lines of data: {invalid}")
         print()
         mean_score = sum(score_all)/len(score_all)
-        print(f"Mean (average) score: {round(mean_score,2)}")
+        print(f"Mean (average) score: {round(mean_score, 2)}")
         print(f"Highest score: {max(score_all)}")
         print(f"Lowest score: {min(score_all)}")
         print(f"Range f scores: {max(score_all)-min(score_all)}")
@@ -84,10 +84,10 @@ while True:
             print(f"Median score: {score_all[median_position]}")
         elif total_lines % 2 == 0:
             # 8:3+4,4:1+2
-            median_position_1 = (total_lines/2)-1
-            median_position_2 = (total_lines/2)
+            median_position_1 = int((total_lines/2)-1)
+            median_position_2 = int((total_lines/2))
             median_score = (
                 (score_all[median_position_1])+(score_all[median_position_2]))/2
-            print(f"Median score: {round(median_score,1)}")
+            print(f"Median score: {round(median_score, 1)}")
 
         break
