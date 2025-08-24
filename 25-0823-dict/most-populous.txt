@@ -1,0 +1,10 @@
+New York,8258035
+Los Angeles,3820914
+Chicago,2664452
+Houston,2314157
+Phoenix,1650070
+Philadelphia,1550542
+San Antonio,1495295
+San Diego,1388320
+Dallas,1302868
+Jacksonville,985843
