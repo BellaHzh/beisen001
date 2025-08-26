@@ -3,10 +3,14 @@ dir = os.path.dirname(__file__)
 file_name = input('Enter a class file to grade (i.e. class1 for class1.txt): ')
 answer_key = "B,A,D,D,C,B,D,A,C,C,D,B,A,B,A,C,B,D,A,C,A,A,B,D,D"
 answer_split = answer_key.split(",")
+
 while True:
     real_name = file_name+".txt"
     try:
         file = open(os.path.join(dir, 'Text Files', real_name), 'r')
+        # New file for grade report
+        new_file_name = file_name+"_grades.txt"
+        file_to_write = open(os.path.join(dir, new_file_name), 'a')
     except FileNotFoundError:
         print("File cannot be found.")
         file_name = input(
@@ -21,6 +25,7 @@ while True:
         invalid = 0
         score_all = []
         for i in range(total_lines):
+            isinvalid = False
             line_detail = students[i]
             line_split = line_detail.split(",")
             student_id = line_split[0]
@@ -33,22 +38,25 @@ while True:
                 print(line_detail)
                 invalid += 1
                 to_be_removed.append(line_detail)
+                isinvalid = True
             if not student_id[1:9].isdigit():
                 print()
                 print("Invalid line of data: N# is invalid")
                 print(line_detail)
                 invalid += 1
                 to_be_removed.append(line_detail)
-            if len(line_split) != 26:
+                isinvalid = True
+            if len(line_split) != 25:
                 print()
                 print("Invalid line of data: does not contain exactly 26 values:")
                 print(line_detail)
                 invalid += 1
                 to_be_removed.append(line_detail)
+                isinvalid = True
 
             score = 0
 
-            if length_each_line == 25:
+            if length_each_line == 25 and not isinvalid:
                 for index in range(length_each_line):
                     if line_split[index] == answer_split[index]:
                         score += 4
@@ -57,6 +65,7 @@ while True:
                     else:
                         score -= 1
                 score_all.append(score)
+                file_to_write.write(f'{student_id},{score}\n')
 
         if invalid == 0:
             print()
@@ -91,3 +100,6 @@ while True:
             print(f"Median score: {round(median_score, 1)}")
 
         break
+
+file.close()
+file_to_write.close()
