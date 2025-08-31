@@ -82,9 +82,16 @@ else:
         print()
         info_choice = input(
             "What weather information would you like? Or, to end, enter \"done\". ")
+        while (info_choice not in info) and (info_choice != "done"):
+            print("That data is not available")
+            print()
+            info_choice = input(
+                "What weather information would you like? Or, to end, enter \"done\". ")
         if info_choice == "done":
             report = input(
                 "Would you like to export the full weather report? (yes/no) ")
+            while report != "yes" and report != "no":
+                report = input("Please enter \"yes\" or \"no\": ")
             if report == "yes":
                 file_name = (f"{choice}_weather_report.txt")
                 file_to_write = open(os.path.join(dir, file_name), 'a')
@@ -93,13 +100,8 @@ else:
                 print("The full weather report has been exported.")
                 file_to_write.close()
                 break
-            else:
+            elif report == "no":
                 break
-        if info_choice not in info:
-            print("That data is not available")
-            print()
-            info_choice = input(
-                "What weather information would you like? Or, to end, enter \"done\". ")
 
 
 # Print out the source code of the web page
