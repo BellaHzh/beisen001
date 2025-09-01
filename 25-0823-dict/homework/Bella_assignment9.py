@@ -8,9 +8,9 @@ print()
 print("Current observations are available for: \n- New York \n- Cape May\n- San Francisco\n- Los Angeles")
 print()
 available_choice = ["New York", "Cape May", "San Francisco", "Los Angeles"]
-choice = input("Enter the city you would like a weather report for: ")
+choice = input("Enter the city you would like a weather report for: ").title()
 while choice not in available_choice:
-    choice = input("No data available. Please try another city: ")
+    choice = input("No data available. Please try another city: ").title()
 print("Accessing weather data . . .")
 print()
 if choice == "New York":
@@ -71,18 +71,22 @@ else:
     info['humidity'] = humidity+"%"
     info['wind'] = wind
     info['visibility'] = visibility+" miles"
-    print("Information available:\n- location\n- weather\n- temperature\n- humidity\n- wind\n- visibility")
+    print("Information available:\n- (l)ocation\n- (w)eather\n- (t)emperature\n- (h)umidity\n- (wi)nd\n- (v)isibility")
+    infoShortcutMap = {'l': 'location', 'w': 'weather',
+                       't': 'temperature', 'h': 'humidity', 'wi': 'wind', 'v': 'visibility'}
     print()
     info_choice = input("What weather information would you like? ")
-    while info_choice not in info:
+    while info_choice not in info and info_choice not in infoShortcutMap:
         info_choice = input(
             "No data available, please try another information: ")
-    while info_choice in info:
+    while info_choice in info or info_choice in infoShortcutMap:
+        if info_choice in infoShortcutMap:
+            info_choice = infoShortcutMap[info_choice]
         print(f"The {info_choice} in {choice} is {info[info_choice]}")
         print()
         info_choice = input(
             "What weather information would you like? Or, to end, enter \"done\". ")
-        while (info_choice not in info) and (info_choice != "done"):
+        while (info_choice not in info) and (info_choice != "done") and (info_choice not in infoShortcutMap):
             print("That data is not available")
             print()
             info_choice = input(
